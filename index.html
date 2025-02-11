@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div id="home-info">
+            <h3 id="home">HOME</h3>
+            <div id="home-score">
+                <span id="count-home">0</span>
+            </div>
+            <div id="home-btns">
+                
+                <button class= button id="increment-home-one" onclick="homeone()">+1</button>
+                <button class= button id="increment-home-two"  onclick="hometwo()">+2</button>
+                <button class= button id="increment-home-three"  onclick="homethree()">+3</button>
+                
+            </div>
+            
+        </div>
+        <div id="guest-info">
+            <h3 id="guest">GUEST</h3>
+            <div id="guest-score">
+                <span id="count-guest">0</span>
+            </div>
+            <div id="guest-btns">
+                
+                <button class= button id="increment-guest-one" onclick="guestone()">+1</button>
+                <button class= button id="increment-guest-two" onclick="guesttwo()">+2</button>
+                <button class= button id="increment-guest-three" onclick="guestthree()">+3</button>
+            </div>
+        </div>
+        <div>
+            <div id="restart">
+                <button class="button" onclick="restart()" >Restart Game </button>
+        </div>
+    </div>
+</body>
+    <script src="index.js"></script>
+</html>

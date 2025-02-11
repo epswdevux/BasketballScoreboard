@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1B244A;
+    width: 300px;
+    height: 220px;
+    margin: 300px auto 0 auto;
+}
+
+#home-info {
+    margin: auto 0;
+}
+
+#guest-info {
+    margin: auto 0;
+}
+
+#home {
+    color: #F9FAFB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#guest {
+        color: #F9FAFB;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+#home-score {
+    background-color: #080001;
+    width: 75px;
+    height: 60px;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px auto;                                       
+}
+
+
+#guest-score {
+    background-color: #080001;
+    width: 75px;
+    height: 60px;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 35px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 8px auto;                                           
+}
+
+
+
+.button {
+    all: unset;
+    align-items: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F9FAFB;
+    font-size: 8px;
+    border-radius: 8px;
+    border: solid #9AABD8 1px;
+    padding: 4px 4px; 
+    border-radius: 4px;
+
+}
+
+#restart {
+    width: 50px;
+    margin: 20 auto 200px auto;
+    color: #F9FAFB;
+    
+}
